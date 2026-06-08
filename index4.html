@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожная карта: Блокчейн-разработка (4 курс)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <h1>Web3 & Blockchain Navigator</h1>
+        <p class="subtitle">Комплексный интерактивный план подготовки и реализации выпускной квалификационной работы на 4 курсе</p>
+    </header>
+
+    <div class="main-navigation">
+        <a href="index.html" class="nav-link">1 курс</a>
+        <a href="index2.html" class="nav-link">2 курс</a>
+        <a href="index3.html" class="nav-link">3 курс</a>
+        <a href="index4.html" class="nav-link active">4 курс</a>
+    </div>
+
+    <div class="roadmap-container">
+        
+        <div class="tabs-menu">
+            <div class="timeline-line"></div>
+            
+            <button class="tab-btn active" onclick="openTab(event, 'stage1')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Место и должность</span>
+                    <span class="tab-step">01</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage2')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Обязанности</span>
+                    <span class="tab-step">02</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage3')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки сейчас</span>
+                    <span class="tab-step">03</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage4')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки на курсе</span>
+                    <span class="tab-step">04</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage5')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Как получу навыки</span>
+                    <span class="tab-step">05</span>
+                </div>
+            </button>
+        </div>
+
+        <div class="content-panel">
+            
+            <div id="stage1" class="tab-content active">
+                <h2>01. Место практики и должность (4 курс)</h2>
+                <p>Финальный этап обучения. Подготовка комплексного дипломного проекта (ВКР), демонстрирующего полную готовность к работе в качестве ведущего инженера.</p>
+                <div class="section-title">Целевая траектория:</div>
+                <ul>
+                    <li><strong>Выбранная должность:</strong> Ведущий блокчейн-разработчик / Руководитель группы разработки (Blockchain Team Lead / Lead Engineer).</li>
+                    <li><strong>Профиль деятельности:</strong> Управление полным циклом разработки Web3-продукта, руководство командой, защита итоговой квалификационной работы.</li>
+                </ul>
+            </div>
+
+            <div id="stage2" class="tab-content">
+                <h2>02. Функциональные обязанности (4 курс)</h2>
+                <p>Задачи уровня управления архитектурой и выпуском готового продукта в промышленную эксплуатацию.</p>
+                <div class="section-title">Основные задачи:</div>
+                <ul>
+                    <li><strong>Реализация ВКР:</strong> Полное проектирование, написание, аудит и развертывание сложной блокчейн-системы для дипломной работы.</li>
+                    <li><strong>Организация DevOps:</strong> Настройка процессов автоматического тестирования и деплоя смарт-контрактов (CI/CD пайплайны).</li>
+                    <li><strong>Координация интеграции:</strong> Обеспечение взаимодействия децентрализованного бэкенда со сложными фронтенд и мобильными клиентами.</li>
+                </ul>
+            </div>
+
+            <div id="stage3" class="tab-content">
+                <h2>03. Навыки, которыми обладаю (К началу 4 курса)</h2>
+                <p>Комплекс инженерных и архитектурных навыков промышленного уровня, накопленный к финальному году обучения.</p>
+                <div class="section-title">Входной стек 4 курса:</div>
+                <ul>
+                    <li><strong>Технологии:</strong> Продвинутый Solidity, TypeScript, архитектура EVM и Hyperledger, аудит безопасности смарт-контрактов, ZK-протоколы.</li>
+                    <li><strong>Управление:</strong> Опыт ведения проектов, работы с технической документацией и архитектурного планирования.</li>
+                </ul>
+            </div>
+
+            <div id="stage4" class="tab-content">
+                <h2>04. Навыки, которые получу (По итогам 4 курса)</h2>
+                <p>Управленческие и стратегические компетенции, необходимые для успешного руководства командами разработки и защиты диплома.</p>
+                <div class="section-title">Планируемые результаты:</div>
+                <ul>
+                    <li><strong>Управление разработкой (Team Leadership):</strong> Навыки управления техническими командами по методологиям Agile/Scrum.</li>
+                    <li><strong>Блокчейн-консалтинг:</strong> Способность проводить полный технологический и экономический анализ интеграции блокчейна в бизнес.</li>
+                    <li><strong>Академическая защита:</strong> Навыки презентации сложных архитектурных систем перед государственной комиссией.</li>
+                </ul>
+            </div>
+
+            <div id="stage5" class="tab-content">
+                <h2>05. Как я получу эти навыки (На 4 курса)</h2>
+                <p>Финальные методы закрепления знаний и подготовка к выходу на рынок труда на руководящие позиции.</p>
+                <div class="section-title">Источники и методы:</div>
+                <ul>
+                    <li><strong>Дипломное проектирование:</strong> Написание и отладка программного комплекса ВКР под руководством дипломного руководителя.</li>
+                    <li><strong>Преддипломная практика:</strong> Решение реальных бизнес-кейсов на базе технологических компаний-партнеров колледжа.</li>
+                    <li><strong>Финальное портфолио:</strong> Сборка всех выполненных за 4 года проектов в единое портфолио разработчика.</li>
+                </ul>
+            </div>
+
+            <div class="project-author">Выполнил: Аленин Михаил | ИСИП-11</div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

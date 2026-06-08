@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожная карта: Блокчейн-разработка (2 курс)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <h1>Web3 & Blockchain Navigator</h1>
+        <p class="subtitle">Комплексный интерактивный план подготовки и усложнения в технологии на 2 курсе</p>
+    </header>
+
+    <div class="main-navigation">
+        <a href="index.html" class="nav-link">1 курс</a>
+        <a href="index2.html" class="nav-link active">2 курс</a>
+        <a href="index3.html" class="nav-link">3 курс</a>
+        <a href="index4.html" class="nav-link">4 курс</a>
+    </div>
+
+    <div class="roadmap-container">
+        
+        <div class="tabs-menu">
+            <div class="timeline-line"></div>
+            
+            <button class="tab-btn active" onclick="openTab(event, 'stage1')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Место и должность</span>
+                    <span class="tab-step">01</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage2')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Обязанности</span>
+                    <span class="tab-step">02</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage3')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки сейчас</span>
+                    <span class="tab-step">03</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage4')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки на курсе</span>
+                    <span class="tab-step">04</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage5')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Как получу навыки</span>
+                    <span class="tab-step">05</span>
+                </div>
+            </button>
+        </div>
+
+        <div class="content-panel">
+            
+            <div id="stage1" class="tab-content active">
+                <h2>01. Место практики и должность (2 курс)</h2>
+                <p>Переход на уровень Middle-разработчика. Фокусирование на проектировании сложной сквозной логики коммерческих Web3-приложений и корпоративных блокчейн-сетей.</p>
+                <div class="section-title">Целевая траектория:</div>
+                <ul>
+                    <li><strong>Выбранная должность:</strong> Самостоятельный блокчейн-инженер / Разработчик смарт-контрактов (Middle Smart Contract Engineer).</li>
+                    <li><strong>Профиль деятельности:</strong> Создание обновляемых систем контрактов, децентрализованных финансовых протоколов (DeFi) и оптимизация потребления газа.</li>
+                </ul>
+            </div>
+
+            <div id="stage2" class="tab-content">
+                <h2>02. Функциональные обязанности (2 курс)</h2>
+                <p>Перечень сложных инженерных процессов и задач, которые предстоит решать в рамках производственной практики и курсового проектирования.</p>
+                <div class="section-title">Основные задачи:</div>
+                <ul>
+                    <li><strong>Архитектурное проектирование:</strong> Разработка связок взаимосвязанных смарт-контрактов с использованием паттернов прокси (Proxy) для их последующего обновления.</li>
+                    <li><strong>Интеграция оракулов:</strong> Подключение внешних потоков данных через Chainlink для обеспечения связи блокчейна с реальным миром.</li>
+                    <li><strong>Проведение тест-покрытия:</strong> Написание комплексных Unit-тестов и интеграционных тестов на TypeScript в среде Hardhat / Foundry.</li>
+                </ul>
+            </div>
+
+            <div id="stage3" class="tab-content">
+                <h2>03. Навыки, которыми обладаю (К началу 2 курса)</h2>
+                <p>Багаж знаний, сформированный по итогам успешного окончания первого курса и защиты базового индивидуального проекта.</p>
+                <div class="section-title">Входной стек 2 курса:</div>
+                <ul>
+                    <li><strong>Языки программирования:</strong> Уверенное владение синтаксисом Python, TypeScript, базовым Solidity и серверной средой Node.js.</li>
+                    <li><strong>Инструментарий:</strong> Базовая работа в среде Remix IDE, управление репозиториями в Git/GitHub и верстка адаптивных Web-страниц (HTML5/CSS3).</li>
+                </ul>
+            </div>
+
+            <div id="stage4" class="tab-content">
+                <h2>04. Навыки, которые получу (По итогам 2 курса)</h2>
+                <p>Углубленные профессиональные компетенции промышленного уровня, необходимые для успешного создания дипломных и коммерческих Web3-решений.</p>
+                <div class="section-title">Планируемые результаты:</div>
+                <ul>
+                    <li><strong>Gas Optimization:</strong> Навыки оптимизации байт-кода смарт-контрактов на уровне низкоуровневых опкодов EVM для снижения стоимости транзакций.</li>
+                    <li><strong>Аудит безопасности:</strong> Умение находить и предотвращать критические уязвимости (Reentrancy, Integer Overflow, Front-running).</li>
+                    <li><strong>Мобильный Web3:</strong> Проектирование децентрализованных мобильных приложений и интеграция протоколов авторизации кошельков (WalletConnect).</li>
+                </ul>
+            </div>
+
+            <div id="stage5" class="tab-content">
+                <h2>05. Как я получу эти навыки (На 2 курсе)</h2>
+                <p>Методология глубокого изучения сложных технических дисциплин и валидация полученных знаний на практике.</p>
+                <div class="section-title">Источники и методы:</div>
+                <ul>
+                    <li><strong>Промышленная разработка:</strong> Создание и развертывание протоколов в тестовых (Sepolia) и основных L2 сетях (Arbitrum, Polygon).</li>
+                    <li><strong>Анализ чужого кода:</strong> Проведение код-ревью и разбор архитектур крупнейших DeFi проектов (Uniswap, Aave) с открытым исходным кодом.</li>
+                    <li><strong>Профильные соревнования:</strong> Регулярное участие во всероссийских хакатонах и технологических чемпионатах профессионального мастерства.</li>
+                </ul>
+            </div>
+
+            <div class="project-author">Выполнил: Аленин Михаил | ИСИП-11</div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

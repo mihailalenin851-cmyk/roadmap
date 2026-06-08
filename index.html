@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожная карта: Блокчейн-разработка (1 курс)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <h1>Web3 & Blockchain Navigator</h1>
+        <p class="subtitle">Комплексный интерактивный план подготовки и освоения базовых технологий на 1 курсе</p>
+    </header>
+
+    <div class="main-navigation">
+        <a href="index.html" class="nav-link active">1 курс</a>
+        <a href="index2.html" class="nav-link">2 курс</a>
+        <a href="index3.html" class="nav-link">3 курс</a>
+        <a href="index4.html" class="nav-link">4 курс</a>
+    </div>
+
+    <div class="roadmap-container">
+        
+        <div class="tabs-menu">
+            <div class="timeline-line"></div>
+            
+            <button class="tab-btn active" onclick="openTab(event, 'stage1')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Место и должность</span>
+                    <span class="tab-step">01</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage2')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Обязанности</span>
+                    <span class="tab-step">02</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage3')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки сейчас</span>
+                    <span class="tab-step">03</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage4')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки на курсе</span>
+                    <span class="tab-step">04</span>
+                </div>
+            </button>
+            
+            <button class="tab-btn" onclick="openTab(event, 'stage5')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Как получу навыки</span>
+                    <span class="tab-step">05</span>
+                </div>
+            </button>
+        </div>
+
+        <div class="content-panel">
+            
+            <div id="stage1" class="tab-content active">
+                <h2>01. Место практики и должность</h2>
+                <p>Определение целевой позиции на рынке Web3-разработки и векторов профессионального развития в рамках академической практики на 1 курсе.</p>
+                <div class="section-title">Целевая траектория:</div>
+                <ul>
+                    <li><strong>Выбранная должность:</strong> Младший блокчейн-разработчик (Junior Blockchain / Smart Contract Engineer).</li>
+                    <li><strong>Профиль деятельности:</strong> Изучение архитектуры распределенных сетей, программирование простейших скриптов автоматизации и аудит смарт-контрактов.</li>
+                </ul>
+            </div>
+
+            <div id="stage2" class="tab-content">
+                <h2>02. Функциональные обязанности</h2>
+                <p>Перечень практических задач и рабочих процессов, которые предстоит выполнять в ходе стажировки на должности блокчейн-разработчика.</p>
+                <div class="section-title">Основные задачи:</div>
+                <ul>
+                    <li><strong>Разработка ядра контракта:</strong> Изучение и написание базовой логики смарт-контракта на тестовом синтаксисе Solidity.</li>
+                    <li><strong>Тестирование логики:</strong> Подбор простейших сценариев выполнения транзакций и отладка переменных в среде Remix IDE.</li>
+                    <li><strong>Контроль версий:</strong> Фиксация изменений в исходном коде проекта с использованием локального терминала Git.</li>
+                </ul>
+            </div>
+
+            <div id="stage3" class="tab-content">
+                <h2>03. Навыки, которыми обладаю</h2>
+                <p>Стартовый теоретический багаж и базовые компетенции, сформированные к моменту начала обучения на 1 курсе колледжа.</p>
+                <div class="section-title">Входные компетенции:</div>
+                <ul>
+                    <li><strong>Дискретная математика:</strong> Базовые знания теории графов и булевой логики (логические И, ИЛИ, НЕ), необходимые для построения ветвлений в коде.</li>
+                    <li><strong>Школьные знания из информатики:</strong> Понимание устройства файловых систем, принципов кодирования информации, работы с алгоритмами и базовыми типами данных.</li>
+                    <li><strong>Алгоритмическое мышление:</strong> Навыки составления простых логических блок-схем и пошаговых сценариев решения задач.</li>
+                </ul>
+            </div>
+
+            <div id="stage4" class="tab-content">
+                <h2>04. Навыки, которые получу</h2>
+                <p>Профессиональные Hard-компетенции, которые будут освоены с нуля в результате успешной реализации индивидуального проекта на 1 курсе.</p>
+                <div class="section-title">Планируемые результаты:</div>
+                <ul>
+                    <li><strong>Программирование на Solidity:</strong> Понимание синтаксиса языка, работы виртуальной машины EVM и создание токенов.</li>
+                    <li><strong>Серверное окружение:</strong> Развертывание локальных скриптов автоматизации в среде выполнения Node.js.</li>
+                    <li><strong>Инструменты инженера:</strong> Профессиональное управление репозиториями на GitHub и работа в редакторе VS Code.</li>
+                </ul>
+            </div>
+
+            <div id="stage5" class="tab-content">
+                <h2>05. Как я получу эти навыки</h2>
+                <p>Страрегия освоения материала и образовательные форматы, применяемые для качественного перехода от школьной базы к блокчейн-разработке.</p>
+                <div class="section-title">Источники и методы:</div>
+                <ul>
+                    <li><strong>Выполнение реальных проектов:</strong> Написание кода проекта в редакторе VS Code с развертыванием в тестовых сетях (Sepolia).</li>
+                    <li><strong>Прохождение онлайн-курсов:</strong> Изучение профильной технической документации блокчейн-платформ и видеолекций.</li>
+                    <li><strong>Работа в команде:</strong> Консультации с куратором проекта и разбор чужого открытого кода (Open Source) на GitHub.</li>
+                </ul>
+            </div>
+
+            <div class="project-author">Выполнил: Аленин Михаил | ИСИП-11</div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

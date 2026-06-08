@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожная карта: Блокчейн-разработка (3 курс)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <h1>Web3 & Blockchain Navigator</h1>
+        <p class="subtitle">Комплексный интерактивный план подготовки и углубления в технологии на 3 курсе</p>
+    </header>
+
+    <div class="main-navigation">
+        <a href="index.html" class="nav-link">1 курс</a>
+        <a href="index2.html" class="nav-link">2 курс</a>
+        <a href="index3.html" class="nav-link active">3 курс</a>
+        <a href="index4.html" class="nav-link">4 курс</a>
+    </div>
+
+    <div class="roadmap-container">
+        
+        <div class="tabs-menu">
+            <div class="timeline-line"></div>
+            
+            <button class="tab-btn active" onclick="openTab(event, 'stage1')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Место и должность</span>
+                    <span class="tab-step">01</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage2')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Обязанности</span>
+                    <span class="tab-step">02</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage3')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки сейчас</span>
+                    <span class="tab-step">03</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage4')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Навыки на курсе</span>
+                    <span class="tab-step">04</span>
+                </div>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'stage5')">
+                <div class="timeline-dot"></div>
+                <div class="btn-text">
+                    <span>Как получу навыки</span>
+                    <span class="tab-step">05</span>
+                </div>
+            </button>
+        </div>
+
+        <div class="content-panel">
+            
+            <div id="stage1" class="tab-content active">
+                <h2>01. Место практики и должность (3 курс)</h2>
+                <p>Выход на уровень старшего разработчика / системного аналитика. Фокусирование на разработке сложных межсетевых архитектур (Cross-Chain) и интеграции блокчейна в промышленный сектор.</p>
+                <div class="section-title">Целевая траектория:</div>
+                <ul>
+                    <li><strong>Выбранная должность:</strong> Старший смарт-контракт инженер / Web3-архитектор (Senior Blockchain Developer).</li>
+                    <li><strong>Профиль деятельности:</strong> Проектирование децентрализованных автономных организаций (DAO), кросс-чейн мостов и корпоративных сетей.</li>
+                </ul>
+            </div>
+
+            <div id="stage2" class="tab-content">
+                <h2>02. Функциональные обязанности (3 курс)</h2>
+                <p>Перечень сложных инженерных задач уровня управления продуктом, выполняемых в рамках производственной практики.</p>
+                <div class="section-title">Основные задачи:</div>
+                <ul>
+                    <li><strong>Проектирование архитектуры:</strong> Создание сложных, обновляемых систем смарт-контрактов с использованием прокси-шаблонов (UUPS/Diamond стандарты).</li>
+                    <li><strong>Оптимизация байт-кода:</strong> Проведение глубокой оптимизации хранения данных на низком уровне EVM для сокращения транзакционных издержек.</li>
+                    <li><strong>Аудит безопасности:</strong> Написание комплексных сценариев статического анализа кода для автоматического поиска критических уязвимостей.</li>
+                </ul>
+            </div>
+
+            <div id="stage3" class="tab-content">
+                <h2>03. Навыки, которыми обладаю (К началу 3 курса)</h2>
+                <p>Профессиональный технологический стек и опыт, накопленные за первые два года обучения в колледже.</p>
+                <div class="section-title">Входной стек 3 курса:</div>
+                <ul>
+                    <li><strong>Разработка:</strong> Написание безопасных смарт-контрактов на Solidity, тестирование через Hardhat / Foundry, знание JavaScript / TypeScript.</li>
+                    <li><strong>Архитектура:</strong> Понимание устройства протоколов децентрализованных финансов (DeFi), стандартов токенов и интеграции оракулов (Chainlink).</li>
+                </ul>
+            </div>
+
+            <div id="stage4" class="tab-content">
+                <h2>04. Навыки, которые получу (По итогам 3 курса)</h2>
+                <p>Компетенции экспертного уровня, необходимые для промышленной разработки высоконагруженных распределенных систем.</p>
+                <div class="section-title">Планируемые результаты:</div>
+                <ul>
+                    <li><strong>Корпоративные сети:</strong> Освоение архитектуры приватных блокчейнов (Hyperledger Fabric, Corda) для корпоративного сектора.</li>
+                    <li><strong>Zero-Knowledge:</strong> Изучение криптографических протоколов с нулевым разглашением (ZK-Snarks) для масштабирования сетей.</li>
+                    <li><strong>Аналитика и мониторинг:</strong> Навыки работы со специализированными системами индексации блокчейн-данных (The Graph).</li>
+                </ul>
+            </div>
+
+            <div id="stage5" class="tab-content">
+                <h2>05. Как я получу эти навыки (На 3 курсе)</h2>
+                <p>Методология освоения технологий экспертного уровня в рамках преддипломной подготовки.</p>
+                <div class="section-title">Источники и методы:</div>
+                <ul>
+                    <li><strong>Коммерческая практика:</strong> Участие в реальной разработке Web3-сервисов, прохождение стажировок в профильных IT-компаниях.</li>
+                    <li><strong>Исследовательская работа:</strong> Изучение криптографических стандартов, анализ уязвимостей крупных DeFi-протоколов по отчетам об аудитах.</li>
+                    <li><strong>Экспертная оценка:</strong> Публикация наработок на GitHub, защита технических решений перед менторами индустрии.</li>
+                </ul>
+            </div>
+
+            <div class="project-author">Выполнил: Аленин Михаил | ИСИП-11</div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
